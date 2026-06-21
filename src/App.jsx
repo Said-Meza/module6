@@ -1,5 +1,7 @@
-import { ListaCompras } from "./ListasCompras"
-import { Tarjeta } from "./Tarjeta"
+// import { ListaCompras } from "./ListasCompras"
+// import { Tarjeta } from "./Tarjeta"
+
+import { ContadorTareas } from "./ContadorTareas"
 
 
 function App() {
@@ -9,7 +11,8 @@ function App() {
       {/* <h1>Tarjeta de Presentación</h1> */}
       {/* Renderizamos el componente Tarjeta */}
       {/* <Tarjeta /> */}
-      <ListaCompras />
+      {/* <ListaCompras /> */}
+      <ContadorTareas></ContadorTareas>
     </div>
 
   )
