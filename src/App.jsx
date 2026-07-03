@@ -1,8 +1,10 @@
 // import { ListaCompras } from "./ListasCompras"
 // import { Tarjeta } from "./Tarjeta"
 
+import { Game } from "./components/Game"
+
 // import { ContadorTareas } from "./ContadorTareas"
-import { ExploradorEspacial } from "./ExploradorEspacial"
+// import { ExploradorEspacial } from "./ExploradorEspacial"
 
 
 function App() {
@@ -14,7 +16,8 @@ function App() {
       {/* <Tarjeta /> */}
       {/* <ListaCompras /> */}
       {/* <ContadorTareas></ContadorTareas> */}
-      <ExploradorEspacial></ExploradorEspacial>
+      {/* <ExploradorEspacial></ExploradorEspacial> */}
+      <Game></Game>
     </div>
 
   )
